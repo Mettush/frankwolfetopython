@@ -8,7 +8,7 @@ with open("README.md", "r") as f:
 
 setup(
     name="frankwolfetopython",
-    version="0.3.1",
+    version="0.3.2",
     packages=find_packages(),
     install_requires=requirements,
     author="Matthew Mione",
