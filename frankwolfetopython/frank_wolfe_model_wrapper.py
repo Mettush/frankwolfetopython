@@ -181,7 +181,7 @@ class FrankWolfeWrapper:
         """
         Solves the optimization problem using the Frank-Wolfe algorithm
         """
-        supported_functions = {self.jl.frank_wofle, ...}
+        supported_functions = {self.jl.frank_wolfe} # A treat for later
 
         return self.jl.frank_wolfe(
             self.__params["objective_function"], 
@@ -195,10 +195,6 @@ class FrankWolfeWrapper:
         )
     
     ### Add functionality for additional frank wolfe methods (blended conditional pairwise gradient)
-
-# quadratic interface
-
-# final boss: conic interface
 
 
 
